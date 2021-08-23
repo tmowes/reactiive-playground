@@ -1,0 +1,18 @@
+{
+  "root": true,
+  "extends": "@react-native-community",
+  "rules": {
+    "prettier/prettier": [
+      "error",
+      {
+        "singleQuote": true,
+        "semi": false,
+        "trailingComma": "all",
+        "arrowParens": "avoid",
+        "bracketSpacing": true,
+        "printWidth": 88
+      }
+    ],
+    "semi": "off"
+  }
+}
